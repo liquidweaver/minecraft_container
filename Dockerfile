@@ -1,4 +1,5 @@
 FROM phusion/baseimage:0.9.11
+MAINTAINER Joshua Weaver <joshuaweaver@gmail.com>
 
 # Make sure we don't get notifications we can't answer during building.
 ENV  DEBIAN_FRONTEND noninteractive
